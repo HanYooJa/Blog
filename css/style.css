@@ -9,6 +9,7 @@ body {
   width: 80%;
   margin: auto;
   overflow: hidden;
+
   /*background-color: aqua;*/
 }
 
@@ -17,11 +18,11 @@ h1 {
 }
 
 h2 {
-  color: #938e8c;
+  color: #645e5d;
 }
 
 p {
-  color: #d9d5d4;
+  color: #645e5d;
 }
 
 ul {
@@ -31,8 +32,8 @@ ul {
 
 .dark {
   padding: 15px;
-  background-color: #35424a;
-  color: white;
+  background-color: #f8b6b6;
+  color: black;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -103,27 +104,28 @@ header a:hover {
 
 /* Showcase */
 #showcase {
-  background-size: cover;
+  background-image: url('../img/showcase.gif');
   background-repeat: no-repeat;
-  display: inline;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #showcase h1 {
-  margin-top: 100px;
-  font-size: 55px;
+  margin-top: 90px;
+  font-size: 40px;
   margin-bottom: 10px;
-  display: inline;
 }
 
 #showcase p {
   font-size: 20px;
-  display: inline;
 }
 
 /* Newsletter */
 
 #newsletter {
-  background-color: #35424a;
+  background-color: #fbd6e7;
   padding: 15px;
   color: #737577;
 }
@@ -146,11 +148,11 @@ header a:hover {
 
 .button_1 {
   height: 36px;
-  background-color: #e8491d;
+  background-color: #fbea03;
   border: 0;
   border-radius: 5px;
   padding: 0 20px;
-  color: white;
+  color: black;
 }
 
 /* Boxes */
@@ -188,7 +190,7 @@ ul#service li {
   list-style: none;
   padding: 20px;
   border: #cccccc solid 1px;
-  background-color: #e6e6e6;
+  background-color: #f9e2c2;
   margin-bottom: 5px;
 }
 
