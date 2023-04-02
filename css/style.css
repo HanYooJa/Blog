@@ -2,7 +2,7 @@ body {
   font: Arial, Helvetica, Sans-serif;
   padding: 0;
   margin: 0;
-  background-color: white;
+  background-color: #fac9c9;
 }
 
 .container {
@@ -10,6 +10,18 @@ body {
   margin: auto;
   overflow: hidden;
   /*background-color: aqua;*/
+}
+
+h1 {
+  color: #645e5d;
+}
+
+h2 {
+  color: #938e8c;
+}
+
+p {
+  color: #d9d5d4;
 }
 
 ul {
@@ -27,17 +39,18 @@ ul {
 
 /* header */
 header {
-  background-color: #30434f;
-  color: white;
+  background-color: #fec4e3;
+  color: #737577;
   padding-top: 30px;
   min-height: 70px;
-  border-bottom: #e8491d 3px solid;
+  border-bottom: #fadf7e 3px solid;
 }
 
 header a {
-  color: white;
+  color: #737577;
   text-decoration: none;
   font-size: 18px;
+  font-weight: bold;
 }
 
 header li {
@@ -59,31 +72,52 @@ header nav {
   margin-top: 10px;
 }
 
-header .highlight,
+header .z {
+  color: #fd6f09;
+  font-weight: bold;
+}
+
+header .x {
+  color: #07fb27;
+  font-weight: bold;
+}
+
+header .c {
+  color: #fb06ae;
+  font-weight: bold;
+}
+
+header .highlight {
+  color: #3160f8;
+  font-weight: bold;
+}
 header .current a {
-  color: #e8491d;
+  color: #737577;
   font-weight: bold;
 }
 
 header a:hover {
-  color: #aaaaaa;
+  color: #2198f8;
   font-weight: bold;
 }
 
 /* Showcase */
 #showcase {
-  min-height: 400px;
-  background: url('../img/showcase.jpg') no-repeat 0 -400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline;
 }
 
 #showcase h1 {
   margin-top: 100px;
   font-size: 55px;
   margin-bottom: 10px;
+  display: inline;
 }
 
 #showcase p {
   font-size: 20px;
+  display: inline;
 }
 
 /* Newsletter */
@@ -91,7 +125,7 @@ header a:hover {
 #newsletter {
   background-color: #35424a;
   padding: 15px;
-  color: white;
+  color: #737577;
 }
 
 #newsletter h1 {
@@ -163,7 +197,7 @@ footer {
   padding: 20px;
   margin-top: 20px;
   color: white;
-  background-color: #e8491d;
+  background-color: #f79c9c;
   text-align: center;
 }
 
